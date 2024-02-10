@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+/* styling for navigation bar */
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(13, 13, 13, 0.326);
+  height: 5rem;
+  position: absolute;
+  
+}
+.tage-line{
+  margin-top: -5px;
+}
+.logo{
+  width: 20%;
+  padding: 10px;
+  padding-left: 30px;
+}
+.logo .main-logo{
+ font-size: 2rem;
+ color: orange;
+ font-weight: bolder;
+
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 20px;
+  list-style: none;
+  width: 40%;
+}
+ul li{
+  margin: 20px;
+
+}
+ul li a{
+  text-decoration: none;
+  font-size: larger;
+  color: orange;
+  padding: 5px 15px;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+
+}
+a:hover{
+  background-color: orange;
+  color: white;
+}
+ /* styling for home section */
+ #home{
+  height: 100vh;
+ background:url(https://tse1.mm.bing.net/th?id=OIP.OQYaU7i2crwO2a0JSht_-gHaEK&pid=Api&P=0&h=180) no-repeat center center/cover;
+ background-attachment: fixed;
+ 
+ 
+ /* background-color: rgb(111, 107, 107); */
+
+ 
+ 
+
+ }
+ .container-home{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  
+ }
+ .upper-heading{
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  
+ }
+ .big-heading{
+  font-size: 5rem;
+  color: orange;
+ }
+ .btn-home{
+  margin: auto;
+  display: block;
+  padding: 10px 20px;
+  border: 2px solid orange;
+  background-color: orange;
+  color: white;
+  font-size: large;
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.7s;
+
+ }
+ .btn-home:hover{
+background: none;
+color: orange;
+ }
+ 
+
+ /* styling for blogs section */
+
+ .container-blog{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 0px,2rem; */
+ }
+ .post{
+  height: 28rem;
+  width: 24rem;
+  border: 2px solid rgb(223, 220, 220);
+  box-shadow: 9px 9px 10px rgb(226, 223, 223);
+  margin: 20px;
+  padding: 10px;
+  transition-duration: 0.5s;
+  
+ }
+ .post:hover{
+  transform: scale(1.03);
+ }
+ .blog-heading{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+  color: black;
+  
+ }
+ .post img{
+width: 24rem;
+height: 12rem;
+ }
+ .post-heading{
+color: black;
+text-align: center;
+font-size: 2rem;
+ }
+ .post-text{
+  color: black;
+  font-size: large;
+  margin-top: 5px;
+
+ }
+ .post-anchor{
+  color: orange;
+  float: right;
+text-decoration: none;
+font-size: large;
+
+ }
+ .post-anchor:hover{
+  background: none;
+  color: orange;
+  text-decoration: underline;
+
+  
+ }
+    /* stylin for contact section  */
+
+input,textarea{
+  display: block;
+  width: 40rem;
+  height: 3rem;
+  margin: 10px;
+}
+/* textarea{
+  display: block;
+  width: 40rem;
+  margin:10px ;
+} */
+label{
+  display: block;
+  color: black;
+  font-size: large;
+}
+.form-container{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  width: 100%;
+  
+  /* border: 2px solid blue; */
+  /* margin-top: 4rem; */
+  padding-top:3rem;
+  padding-bottom: 3rem;
+}
+.con-heading{
+  color: black;
+  text-align: center;
+  font-size: 4rem;
+  
+  
+
+}
+
+
+.con-hed-2{
+  color: black;
+  margin-bottom: 2rem;
+  margin-left: 8rem;
+  font-size: 40px;
+
+}
+#sub{
+ background-color: orange;
+width: 5.5rem;
+height: 2.5rem;
+color: rgb(255, 255, 255);
+font-size: large;
+border: 2px solid orange;
+cursor: pointer;
+transition-duration: 0.6s;
+
+}
+#sub:hover{
+  background: none;
+  color: orange;
+}
+.contact-info{
+  /* border: 2px solid red; */
+
+  
+}
+.left-hed{
+  color: black;
+  font-size: 2.5rem;
+}
+.orange{
+  color: orange;
+  font-size: 25px;
+  font-weight: bold;
+}
+.p{
+  color: black;
+  margin-bottom: 23px;
+}
+.adres{
+  margin-top: 4rem;
+}
+/* .fol-pera{
+  display: flex;
+  align-self: center;
+} */
+.fol-pera img{
+  margin: 10px;
+  width: 8rem;
+  height: 2rem;
+}
+
+.thank{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 73px;
+}
+#Contact{
+  /* margin-top: 10rem; */
+  /* border: 2px solid red; */
+}
+.lets{
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+footer{
+  height: 6rem;
+  width: 100%;
+  color: white;
+  background-color: rgb(58, 56, 56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+

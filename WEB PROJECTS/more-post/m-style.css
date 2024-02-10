@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+/* styling for navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(81, 80, 80);
+}
+.upper-logo {
+  color: orange;
+  font-size: 2rem;
+}
+.tage-line {
+  text-align: center;
+  color: white;
+}
+/* styling for main */
+
+.container {
+  margin-top: 5rem;
+  width: 99%;
+  /* height: 90vh; */
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+  /* border: 2px solid red; */
+}
+.left {
+  width: 50%;
+  /* height: 60%; */
+  /* border: 2px solid green; */
+  margin: 2rem;
+  padding: 0rem;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  position: relative;
+  bottom: -5rem;
+  width: 30%;
+  padding: 20px;
+  border: 2px solid rgb(225, 221, 221);
+  box-shadow: 9px 9px 10px rgb(202, 199, 199) ;
+  position: relative;
+  bottom: 1.2rem;
+}
+.box-1 {
+  border: 2px solid rgb(225, 221, 221);
+  box-shadow: 9px 9px 10px rgb(202, 199, 199) ;
+  width: 90%;
+}
+.box-2 {
+  border: 2px solid rgb(225, 221, 221);
+  box-shadow: 9px 9px 10px rgb(202, 199, 199) ;
+  margin-top: 30px;
+  padding: 10px;
+  width: 86%;
+}
+.post-heading {
+  font-size: 4rem;
+  text-align: center;
+}
+.orange {
+  display: inline;
+  color: orange;
+}
+.post-text {
+  margin: 2rem;
+  text-align: left;
+}
+.text {
+  font-size: 1.3rem;
+}
+
+/* styling for right box */
+input {
+  width: 75%;
+  height: 3rem;
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+button {
+  height: 3.2rem;
+  width: 20%;
+  font-size: 1rem;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.6s;
+  border: 2px solid orange;
+}
+button:hover {
+  color: orange;
+  background: none;
+}
+label {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+}
+textarea {
+  width: 97%;
+  font-size: 1.5rem;
+  height: 11rem;
+  padding-left: 10px;
+}
+textarea:active {
+  border: 2px solid rgb(211, 208, 208);
+}
+.send {
+  width: 6rem;
+  margin-top: 10px;
+}
+.chs-post {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+a {
+  color: orange;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition-duration: 0.6s;
+}
+a:hover {
+  background-color: orange;
+  color: white;
+}
+        /* styling for footer */
+
+ footer{
+  height: 6rem;
+  width: 100%;
+  background-color: rgb(66, 62, 62);
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }       
+/* Media quiry */
+
+@media screen and (max-width: 1370px) {
+  .post-heading {
+    font-size: 3rem;
+  }
+  .right {
+    position: relative;
+    bottom: 0rem;
+  }
+}
+@media screen and (max-width: 1233px) {
+  input {
+    width: 96%;
+  }
+  .search-btn {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 6rem;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .container {
+    flex-direction: column;
+  }
+  .left {
+    width: 90%;
+  }
+  .post-heading {
+    font-size: 4rem;
+  }
+  .right {
+    display: block;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  input {
+    width: 80%;
+    height: 3rem;
+  }
+  .search-btn {
+    display: inline;
+    height: 3rem;
+    width: 7rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .post-heading {
+    font-size: 3rem;
+  }
+  .box-1{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 940px) {
+  input{
+    width: 96%;
+  }
+  .search-btn{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 6rem;
+  }
+}
+@media screen and (max-width:450px){
+ .post-heading{
+  font-size: 2.5rem;
+ } 
+  
+}
+@media screen and (max-width:280px){
+  .box-1,.box-2{
+    margin-right: 2.5rem;
+  }
+  .text{
+   font-size:0.9rem;
+  }
+  label{
+    font-size: 1rem;
+
+  }
+  a{
+    font-size: 1rem;
+    
+  }
+  .post-heading{
+    font-size: 2rem;
+  }
+
+  
+}

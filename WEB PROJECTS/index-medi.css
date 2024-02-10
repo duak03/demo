@@ -1,0 +1,164 @@
+@media  screen and (max-width:715px) {
+  .navbar{
+    flex-direction: column;
+    height: 10rem;
+  }
+  ul{
+    width: 100%;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .main-heading{
+    margin-top: 10rem;
+  }
+  
+}
+@media screen and (max-width:500px){
+
+   .upper-heading{
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  
+ }
+ .big-heading{
+  font-size: 4rem;
+  color: orange;
+ }
+}
+@media screen and (max-width:280px){
+  .tage-line{
+    font-size: 0.8rem;
+  }
+   .upper-heading{
+  font-size: 0.5rem;
+  text-align: center;
+  color: white;
+  
+ }
+ .big-heading{
+  font-size: 3rem;
+  color: orange;
+ }
+ ul li{
+  margin: 3px;
+  margin-top: 15px;
+ }
+ li a{
+  font-size: 0.5rem;
+ }
+
+.container-blog{
+  padding: 0px;
+}
+.post img{
+  width: 19rem;
+}
+.blog-heading{
+  font-size: 1.7rem;
+}
+.upper-heading{
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  
+ }
+ .big-heading{
+  font-size: 3rem;
+  color: orange;
+ }
+ .post-heading{
+ 
+  font-size: 1.5rem;
+   }
+   .post-text{
+    color: black;
+    font-size:15px;
+    margin-top: 5px;
+  
+   }
+   input,textarea{
+    display: block;
+    width: default;
+   
+  }
+}
+@media screen and (max-width:425px){
+.post{
+  width: 21rem;
+  height:29rem;
+  
+}
+.post img{
+  width: 21rem;
+}
+.blog-heading{
+  font-size: 1.7rem;
+}
+
+
+}
+@media screen and (max-width:365px) {
+
+    ul{
+    width: 100%;
+    justify-content: center;
+    padding-top:5px;
+  }
+  li a{
+    margin: 0px,0px;
+  }
+  .logo .main-logo{
+    font-size: 1.5rem;
+
+   
+   }
+}
+@media  screen and (max-width:1230px) {
+  
+  .form-container{
+    flex-direction: column;
+  }
+  .contact-info{
+    width:40rem ;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width:760px){
+  input,textarea{
+    display: block;
+    width: 20rem;
+   
+  }
+
+  .contact-info{
+    width: 100%;
+    margin: 0px;
+  }
+  .left-hed{
+    text-align: center;
+  }
+  .con-heading{
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+   }
+   .lets{
+    color: orange;
+    font-size: 30px;
+   
+    
+  }
+  
+}
